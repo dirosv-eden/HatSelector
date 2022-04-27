@@ -75,16 +75,15 @@ def queue_chrildern(count_chrildren):
 
 
 
-def queue_chrildern_test(count_chrildren):
-    # วนลูปทดสอบ
-    for index in range(count_chrildren):
-        import names
-        chrildren = names.get_full_name()
-        list_house_selected = selector_rules(chrildren)
-        enroll_chrildren_in_house(list_house_selected,chrildren)
+# def queue_chrildern_test(count_chrildren):
+#     # วนลูปทดสอบ
+#     for index in range(count_chrildren):
+#         import names
+#         chrildren = names.get_full_name()
+#         list_house_selected = selector_rules(chrildren)
+#         enroll_chrildren_in_house(list_house_selected,chrildren)
 
-    for index in house:
-        print("บ้านหลังที่ %s มีนักเรียน %s คน" % (index + 1,len(house[index])))
-
+#     for index in house:
+#         print("บ้านหลังที่ %s มีนักเรียน %s คน" % (index + 1,len(house[index])))
 
 queue_chrildern(50)
