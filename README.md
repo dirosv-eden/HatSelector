@@ -15,6 +15,7 @@
 
 ### Run App.
 <ol>
+ <li>สำหรับเครื่องที่ไม่มี virtualenv สามารถติดตั้งได้โดยคำสั่ง : <code>pip install virtualenv </code> </li>
 <li> สร้าง virtual environments : <code>virtual venv </code>.</li>  
 <li> เข้าใช้ทรัพยากร สำหรับ Mac/Linux : <code>source venv/bin/activate</code>, สำหรับ Windows <code> venv/Scripts/activate.bat </code></li>
 <li> ติดตั้ง package : <code>pip install -r requirements.txt</code></li>
