@@ -6,7 +6,7 @@ from statistics import mean
 # CONFIG 
 
 NUMBER_OF_HOUSE = 4
-
+NUMBER_OF_CHILDREN = 50
 
 # INITIAL VARIABLE
 
@@ -74,7 +74,6 @@ def queue_chrildern(count_chrildren):
         print("บ้านหลังที่ %s มีนักเรียน %s คน" % (index + 1,len(house[index])))
 
 
-
 # def queue_chrildern_test(count_chrildren):
 #     # วนลูปทดสอบ
 #     for index in range(count_chrildren):
@@ -86,4 +85,5 @@ def queue_chrildern(count_chrildren):
 #     for index in house:
 #         print("บ้านหลังที่ %s มีนักเรียน %s คน" % (index + 1,len(house[index])))
 
-queue_chrildern(50)
+
+queue_chrildern(NUMBER_OF_CHILDREN)
