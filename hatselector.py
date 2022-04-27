@@ -65,4 +65,4 @@ def queue_chrildern_test(count_chrildren):
         print("บ้านหลังที่ %s มีนักเรียน %s คน" % (index,len(house[index])))
 
 
-queue_chrildern_test(20)
+queue_chrildern_test(170)
